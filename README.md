@@ -14,7 +14,7 @@ This issue was discovered when implementing a type-safe event emitter class.
 An `Events` interface is used to define the supported events by mapping the event name to a tuple type for the parameters of the event listener.
 This interface is passed through a generic parameter `E` in the `Test` class and then passed through a generic parameter `E` in the `EventEmitter` class.
 
-The unexpected behavior occurs on lines 29 and 33. Despite the events producing two boolean values, 
+The unexpected behavior occurs on lines 29 and 33 (in `test.ts`). Despite the events producing two boolean values, 
 a listener function should be able to define 1 parameter and only have access to the first parameter passed.
 
 The unexpected behavior only occurs when the `Events` interface type has to pass through 2 generic class parameters.
