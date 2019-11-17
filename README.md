@@ -1,0 +1,1 @@
+# typescript-tuple-rest-spread-bug
