@@ -10,7 +10,7 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "typescript": "^3.7.2"
+    "typescript": "next"
   },
   "engines": {
     "node": ">=12.13.0",
