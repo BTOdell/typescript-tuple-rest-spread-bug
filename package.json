@@ -1,0 +1,19 @@
+{
+  "name": "typescript-tuple-rest-spread-bug",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/BTOdell/typescript-tuple-rest-spread-bug",
+  "bugs": "https://github.com/BTOdell/typescript-tuple-rest-spread-bug/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BTOdell/typescript-tuple-rest-spread-bug"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^3.7.2"
+  },
+  "engines": {
+    "node": ">=12.13.0",
+    "npm": ">=6.12.1"
+  }
+}

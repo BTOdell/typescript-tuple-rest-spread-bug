@@ -1,0 +1,14 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "baseUrl": "node_modules",
+    "module": "commonjs",
+    "allowSyntheticDefaultImports": true,
+    "target": "es2017",
+    "forceConsistentCasingInFileNames": true,
+    "sourceMap": true,
+    "strict": true,
+    "noImplicitReturns": true,
+    "strictFunctionTypes": false
+  }
+}
