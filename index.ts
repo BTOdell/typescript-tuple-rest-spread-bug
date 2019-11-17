@@ -8,9 +8,7 @@ type Args<T> = T extends any[] ? T : [T];
 
 export class EventEmitter<E> {
 
-    public restConditional<K extends keyof E>(eventName: K, listener: (...args: Args<E[K]>) => any): this {
-
-        return this;
+    public restConditional<K extends keyof E>(eventName: K, listener: (...args: Args<E[K]>) => any): void {
     }
 
     public restGenerics<K extends keyof E>(eventName: K, listener: (...args: [boolean, boolean]) => any): void {

@@ -26,11 +26,11 @@ class Test<E extends Events = Events> {
         this.ee.restGenerics("multiArray", (b, b2) => {}); // No error
         this.ee.restGenerics("multiArray", (b, b2, b3) => {}); // Expected error
 
-        this.ee.restConditional("multiArray", b => {}); // Unexpected error
+        this.ee.restConditional("multiArray", (b: boolean) => {}); // Unexpected error
         this.ee.restConditional("multiArray", (b, b2) => {}); // No error
         this.ee.restConditional("multiArray", (b, b2, b3) => {}); // Expected error
 
-        this.ee.restConditional("multiOptionalArray", b => {}); // Unexpected error
+        this.ee.restConditional("multiOptionalArray", (b: boolean) => {}); // Unexpected error
         this.ee.restConditional("multiOptionalArray", (b, b2?) => {}); // No error
         this.ee.restConditional("multiOptionalArray", (b, b2) => {}); // Expected error
     }
